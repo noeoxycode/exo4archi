@@ -1,9 +1,11 @@
+import fr.exo3.Calculator;
+import fr.exo3.OperatorType;
+import fr.exo3.Result;
 import org.junit.Test;
 
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
-
 
 public class CalculatorTest {
     @Test

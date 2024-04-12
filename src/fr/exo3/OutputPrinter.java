@@ -1,3 +1,5 @@
+package fr.exo3;
+
 public class OutputPrinter {
     public static void printSteps(Result result, char operation) {
         for (String step : result.getSteps()) {

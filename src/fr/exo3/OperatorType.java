@@ -1,3 +1,5 @@
+package fr.exo3;
+
 import java.util.NoSuchElementException;
 
 public enum OperatorType {
