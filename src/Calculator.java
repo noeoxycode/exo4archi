@@ -10,7 +10,7 @@ public class Calculator {
         for (int i = 1; i < numbers.size(); i++) {
             int num = numbers.get(i);
             result = operation.calculate(result, num);
-            steps.add(operation.getSymbol() + String.valueOf(num) + " (=" + result + ")");
+            steps.add(operation.getSymbol() + num + " (=" + result + ")");
         }
 
         return new Result(result, steps);
